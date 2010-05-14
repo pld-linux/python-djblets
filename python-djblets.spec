@@ -14,7 +14,9 @@ Source0:	http://downloads.reviewboard.org/releases/Djblets/0.5/Djblets-%{version
 # Source0-md5:	389476bf51066392d769837ddb3068ef
 BuildRequires:	python
 BuildRequires:	python-devel
+BuildRequires:	python-modules
 BuildRequires:	python-setuptools
+BuildRequires:	rpm-pythonprov
 BuildRequires:	sed >= 4.0
 Requires:	python-PIL
 Requires:	python-django >= 1.1.1
