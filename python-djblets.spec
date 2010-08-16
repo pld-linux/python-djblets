@@ -1,7 +1,7 @@
 Summary:	A collection of useful classes and functions for Django
 Name:		python-djblets
 Version:	0.5.9
-Release:	1
+Release:	2
 Group:		Applications/Networking
 # Djblets is MIT licensed:
 # http://code.google.com/p/reviewboard/wiki/Djblets
