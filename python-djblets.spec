@@ -1,7 +1,7 @@
 Summary:	A collection of useful classes and functions for Django
 Name:		python-djblets
-Version:	0.5.9
-Release:	2
+Version:	0.6.7
+Release:	1
 Group:		Applications/Networking
 # Djblets is MIT licensed:
 # http://code.google.com/p/reviewboard/wiki/Djblets
@@ -10,8 +10,8 @@ Group:		Applications/Networking
 # https://www.redhat.com/archives/fedora-legal-list/2009-May/msg00025.html
 License:	MIT and (MIT or GPL v2)
 URL:		http://www.review-board.org/
-Source0:	http://downloads.reviewboard.org/releases/Djblets/0.5/Djblets-%{version}.tar.gz
-# Source0-md5:	389476bf51066392d769837ddb3068ef
+Source0:	http://downloads.review-board.org/releases/Djblets/0.6/Djblets-%{version}.tar.gz
+# Source0-md5:	0c5fb9556442bcf928a0609e54c9203d
 BuildRequires:	python
 BuildRequires:	python-devel
 BuildRequires:	python-modules
