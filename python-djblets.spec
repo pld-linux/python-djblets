@@ -61,6 +61,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc NEWS
+%doc AUTHORS NEWS README
 %{py_sitescriptdir}/djblets
 %{py_sitescriptdir}/Djblets*.egg-info
