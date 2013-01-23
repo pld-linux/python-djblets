@@ -14,6 +14,7 @@ License:	MIT and (MIT or GPL v2)
 URL:		http://www.review-board.org/
 Source0:	http://downloads.review-board.org/releases/Djblets/0.7/Djblets-%{version}.tar.gz
 # Source0-md5:	9540b0d25ba632c38cc3e3a41e659564
+BuildRequires:	fslint
 BuildRequires:	python
 BuildRequires:	python-devel
 BuildRequires:	python-django-pipeline >= 1.2.16
@@ -49,8 +50,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %py_postclean
 
-# Remove bundled copy of feedparser.py
-#%{__rm} $RPM_BUILD_ROOT%{py_sitescriptdir}/djblets/feedview/feedparser.py*
+# hardlink files with fingerprinted variants
+findup -m $RPM_BUILD_ROOT
 
 # Remove the "tests" subdirectory to avoid it polluting the main python namespace:
 %{__rm} -r $RPM_BUILD_ROOT%{py_sitescriptdir}/tests
