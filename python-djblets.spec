@@ -2,8 +2,8 @@
 # - use system jquery, jquery-ui
 Summary:	A collection of useful classes and functions for Django
 Name:		python-djblets
-Version:	0.7.8
-Release:	2
+Version:	0.7.9
+Release:	1
 Group:		Applications/Networking
 # Djblets is MIT licensed:
 # http://code.google.com/p/reviewboard/wiki/Djblets
@@ -13,7 +13,7 @@ Group:		Applications/Networking
 License:	MIT and (MIT or GPL v2)
 URL:		http://www.review-board.org/
 Source0:	http://downloads.review-board.org/releases/Djblets/0.7/Djblets-%{version}.tar.gz
-# Source0-md5:	9540b0d25ba632c38cc3e3a41e659564
+# Source0-md5:	f7da78490a5f8c31dd1453b4a115ff4f
 BuildRequires:	fslint
 BuildRequires:	python
 BuildRequires:	python-devel
