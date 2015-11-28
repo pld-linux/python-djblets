@@ -40,13 +40,11 @@ A collection of useful classes and functions for Django
 %{__rm} -r Djblets*.egg-info
 
 %build
-%{__python} setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__python} setup.py install \
-	--optimize=2 \
-	--root=$RPM_BUILD_ROOT
+%py_install
 
 %py_postclean
 
