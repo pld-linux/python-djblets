@@ -12,6 +12,7 @@ Group:		Applications/Networking
 # https://www.redhat.com/archives/fedora-legal-list/2009-May/msg00025.html
 License:	MIT and (MIT or GPL v2)
 URL:		http://www.review-board.org/
+BuildRequires:	rpmbuild(macros) >= 1.710
 Source0:	http://downloads.review-board.org/releases/Djblets/0.7/Djblets-%{version}.tar.gz
 # Source0-md5:	c2e1987fc6badad138743aa0ea009922
 BuildRequires:	fslint
